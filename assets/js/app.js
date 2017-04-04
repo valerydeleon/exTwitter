@@ -18,6 +18,7 @@ function escribirTweet(){
   textoNombreAutorTweet.value = "";
   // autorTweet.width = "100px";
   autorTweet.align = "right";
+  autorTweet.required
   // autorTweet.innerText = "Creado por: " +
 
   //division.width = "300px";
@@ -35,5 +36,5 @@ function contadorDeLetras(){
 }
 
 function contadorClicks(){
-  
+
 }
