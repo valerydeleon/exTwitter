@@ -13,10 +13,10 @@
           <td><p>Contador de Tweets</p></td>
         </tr>
         <tr>
-          <td colspan="3" > <textarea id="inputTextArea" rows="10" cols="80" placeholder="Escribe aquí tu tweet" ></textarea> </td>
+          <td colspan="3" > <textarea id="inputTextArea" rows="10" cols="80" name="texto" onKeyDown="contadorDeLetras()" onKeyUp="contadorDeLetras()" placeholder="Escribe aquí tu tweet" ></textarea> </td>
         </tr>
         <tr>
-          <td><p>Caracteres disponibles: </p></td>
+          <td>Caracteres: <input type="text" name=caracteres size=4> /140</td>
           <td width="100px" ></td>
           <td align="right" ><p>Tweet por: <input id="inputNombreAutor" type="text" placeholder="Tu Nombre" /> </p></td>
         </tr>
@@ -27,7 +27,7 @@
       <hr>
     </form>
 
-    <article id="contenedorDeTweets" >
+    <article id="contenedorDeTweets" width="100px" >
       <h3> Tweets </h3>
     </article>
 
