@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Twitter</title>
+  </head>
+  <body>
+    <h1> Twitter Pirata </h1>
+    <br>
+    <form>
+      <table>
+        <tr>
+          <td><p>Contador de Tweets</p></td>
+        </tr>
+        <tr>
+          <td colspan="3" > <textarea id="inputTextArea" rows="10" cols="80" placeholder="Escribe aquí tu tweet" ></textarea> </td>
+        </tr>
+        <tr>
+          <td><p>Caracteres disponibles: </p></td>
+          <td width="100px" ></td>
+          <td align="right" ><p>Tweet por: <input id="inputNombreAutor" type="text" placeholder="Tu Nombre" /> </p></td>
+        </tr>
+        <tr>
+          <td colspan="3" align="right" ><input type="button" onclick="escribirTweet()" value="tweet!!! "/> </td>
+        </tr>
+      </table>
+      <hr>
+    </form>
+
+    <article id="contenedorDeTweets" >
+      <h3> Tweets </h3>
+    </article>
+
+    <script src="assets/js/app.js" ></script>
+  </body>
+</html>
